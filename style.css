@@ -422,7 +422,10 @@ nav .fas {
   }
 
   .header-text {
-    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 23rem;
     font-size: 16px;
   }
 
@@ -474,11 +477,11 @@ nav .fas {
   }
 
   /* Show the mobile menu icon */
-  nav .fas {
+  /* nav .fas {
     display: block;
     font-size: 25px;
     cursor: pointer;
-  }
+  } */
 
   /* Style for the navigation links displayed on small screens */
   .nav-links {
